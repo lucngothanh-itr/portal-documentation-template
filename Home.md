@@ -1,10 +1,10 @@
-# 👋 Welcome to the Portal Documentation
+# 👋 Welcome to the [PORTAL_NAME] Portal Documentation
 
 Last Updated: April 22, 2025
 
 ## Overview
 
-This documentation provides comprehensive information about the [PORTAL_NAME] portal, its architecture, integration with backend services, and usage guidelines. This portal is part of the BTCY BioFlux ecosystem and interacts with various microservices.
+This documentation details the [PORTAL_NAME] portal within the BTCY BioFlux ecosystem, focusing on its technical implementation, integrations, and usage patterns.
 
 ---
 
@@ -14,13 +14,13 @@ This documentation provides comprehensive information about the [PORTAL_NAME] po
 - **Version**: [VERSION]
 - **Repository**: [REPO_LINK]
 - **Deployment URL**: [DEPLOYMENT_URL]
-- **Type**: [PORTAL_TYPE] (Admin/Patient/Clinic/etc.)
+- **Portal Type**: [PORTAL_TYPE] (Admin/Patient/Clinic/etc.)
 
 ---
 
-## 📊 Architecture & Integration
+## 📊 Architecture Overview
 
-The [PORTAL_NAME] Portal interacts with several backend microservices through Apollo Federation Gateway. Below is a visualization of these interactions:
+The [PORTAL_NAME] Portal interacts with these microservices through Apollo Federation Gateway:
 
 ```mermaid
 graph TD
@@ -35,45 +35,61 @@ graph TD
     style GW fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
-For detailed integration information, see the [Service Integration](sections/Integration/Services) page.
+---
+
+## 🔑 Primary Flows
+
+- [Flow 1 - Description]
+- [Flow 2 - Description]
+- [Flow 3 - Description]
 
 ---
 
-## 🔑 Key Features
+## 🖥️ Frontend Implementation
 
-- [Feature 1]
-- [Feature 2]
-- [Feature 3]
-- [Feature 4]
+### Core Components
+- [Component 1] - Purpose and usage
+- [Component 2] - Purpose and usage
+
+### Global State Management
+- State stores and their purpose
+- Redux/Context structure
+
+### Routes
+- Main application routes and access control
+
+### GraphQL Integration
+- Key queries and mutations
+- Apollo Client implementation
 
 ---
 
-## 📚 Documentation Sections
+## ⚙️ Backend Integration
 
-- [Architecture Overview](sections/Architecture/Overview)
-- [Service Integration](sections/Integration/Services)
-- [Authentication Flow](sections/Architecture/Authentication-Flow)
-- [User Guides](sections/Usage/User-Guides)
-- [Development Setup](Development-Setup)
-- [Deployment Guide](Deployment-Guide)
+### Microservices Used
+- Auth Service - Authentication endpoints used
+- Billing Service - Payment processing endpoints used
+- [Other Services] - Specific endpoints used
+
+### Data Models
+- Key data structures and relationships
+- Database schemas referenced
+
+### Third-Party Integrations
+- [Integration 1] - Purpose and implementation details
+- [Integration 2] - Purpose and implementation details
 
 ---
 
 ## 🔄 Related Portals
 
-This portal works in conjunction with:
-
-- [Related Portal 1]
-- [Related Portal 2]
+- [Related Portal 1] - Integration points
+- [Related Portal 2] - Integration points
 
 ---
 
 ## 🙋 Support & Maintenance
 
-For issues related to this portal, contact:
-
 - **Team**: [TEAM_NAME]
 - **Primary Contact**: [CONTACT_PERSON]
 - **Email**: [CONTACT_EMAIL]
-
-For urgent production issues, refer to the [Troubleshooting](Troubleshooting) guide.

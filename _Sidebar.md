@@ -1,47 +1,41 @@
 # 📘 [PORTAL_NAME] Documentation
 
-## 📚 Portal Overview
+## 📚 Portal Essentials
 - [🏠 Home](Home)
-- [🏢 About](About)
-- [🔑 Key Features](Key-Features)
+- [🔑 Primary Flows](Primary-Flows)
 
-## 🏗️ Architecture
-- [📊 Overview](sections/Architecture/Overview)
-- [🔐 Authentication Flow](sections/Architecture/Authentication-Flow)
-- [🧩 Component Structure](sections/Architecture/Component-Structure)
-- [📱 Responsive Design](sections/Architecture/Responsive-Design)
+## 🖥️ Frontend
+- [🧩 Components](sections/Frontend/Components)
+  - [Core Components](sections/Frontend/Components/Core)
+  - [Shared Components](sections/Frontend/Components/Shared)
+- [🔄 State Management](sections/Frontend/State-Management)
+  - [Store Structure](sections/Frontend/State-Management/Store)
+  - [State Access Patterns](sections/Frontend/State-Management/Access-Patterns)
+- [🧭 Routing](sections/Frontend/Routing)
+- [📡 GraphQL](sections/Frontend/GraphQL)
+  - [Queries](sections/Frontend/GraphQL/Queries)
+  - [Mutations](sections/Frontend/GraphQL/Mutations)
+  - [Fragments](sections/Frontend/GraphQL/Fragments)
 
-## 🔄 Service Integration
-- [🌐 GraphQL Gateway](sections/Integration/GraphQL-Gateway)
-- [🔌 Service Dependencies](sections/Integration/Services)
-  - [Auth Service](sections/Integration/Auth-Service)
-  - [Billing Service](sections/Integration/Billing-Service)
-  - [Clinic Service](sections/Integration/Clinic-Service)
-  - [Admin Service](sections/Integration/Admin-Service)
-- [📡 API Usage Examples](sections/Integration/API-Examples)
+## ⚙️ Backend Integration
+- [🔌 Microservices](sections/Backend/Microservices)
+  - [Auth Service](sections/Backend/Microservices/Auth)
+  - [Billing Service](sections/Backend/Microservices/Billing)
+  - [Clinic Service](sections/Backend/Microservices/Clinic)
+  - [Other Services](sections/Backend/Microservices/Other)
+- [💾 Data Models](sections/Backend/Data-Models)
+- [🔄 API Integration](sections/Backend/API-Integration)
+  - [GraphQL Gateway Usage](sections/Backend/API-Integration/GraphQL-Gateway)
+  - [Error Handling](sections/Backend/API-Integration/Error-Handling)
 
-## 💻 Development
-- [🛠️ Setup Guide](Development-Setup)
-- [🧪 Testing Strategy](Testing-Strategy)
-- [🚀 CI/CD Pipeline](CICD-Pipeline)
-- [📦 Dependency Management](Dependency-Management)
-
-## 📖 Usage Guides
-- [👤 User Guides](sections/Usage/User-Guides)
-- [🧭 Navigation](sections/Usage/Navigation)
-- [📋 Forms & Validation](sections/Usage/Forms-Validation)
-- [📊 Data Visualization](sections/Usage/Data-Visualization)
+## 🌐 Third-Party Integrations
+- [🔧 Integration List](sections/Integrations/Overview)
+- [📦 Integration Details](sections/Integrations/Details)
 
 ## 🚀 Deployment
-- [📋 Deployment Guide](Deployment-Guide)
 - [🌍 Environments](Environments)
 - [🔄 Version History](Version-History)
 
-## 🔧 Maintenance
-- [🧰 Troubleshooting](Troubleshooting)
-- [📝 Change Log](Change-Log)
-- [📊 Performance Monitoring](Performance-Monitoring)
-
-## 🤝 Related Documentation
-- [ERP Backend Documentation](../btcy-bioflux-backend-erp_doc.wiki/Home)
-- [Other Portals](Related-Portals)
+## 🤝 Related Services
+- [📊 Related Portals](Related-Portals)
+- [📡 Service Dependencies](Service-Dependencies)
