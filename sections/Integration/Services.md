@@ -10,14 +10,14 @@ This document details how the [PORTAL_NAME] portal integrates with various backe
 
 Below is a comprehensive mapping of the portal's dependencies on backend services:
 
-| Service | Dependency Level | Primary Features Used | GraphQL Entities |
-|---------|-----------------|----------------------|------------------|
-| Auth Service | **High** | User authentication, authorization, role management | `User`, `Role`, `Permission` |
-| Admin Service | **Medium/High** | User management, system configuration | `AdminUser`, `SystemConfig` |
-| Billing Service | **Medium** | Payment processing, invoicing | `Invoice`, `Payment`, `Subscription` |
-| Clinic Service | **Medium/Low** | Clinic profiles, practitioner management | `Clinic`, `Practitioner`, `Schedule` |
-| Device Management | **Medium** | Device provisioning, monitoring | `Device`, `DeviceMetrics`, `DeviceStatus` |
-| Support Service | **Low** | Ticket management | `Ticket`, `KnowledgeArticle` |
+| Service           | Dependency Level | Primary Features Used                               | GraphQL Entities                          |
+| ----------------- | ---------------- | --------------------------------------------------- | ----------------------------------------- |
+| Auth Service      | **High**         | User authentication, authorization, role management | `User`, `Role`, `Permission`              |
+| Admin Service     | **Medium/High**  | User management, system configuration               | `AdminUser`, `SystemConfig`               |
+| Billing Service   | **Medium**       | Payment processing, invoicing                       | `Invoice`, `Payment`, `Subscription`      |
+| Clinic Service    | **Medium/Low**   | Clinic profiles, practitioner management            | `Clinic`, `Practitioner`, `Schedule`      |
+| Device Management | **Medium**       | Device provisioning, monitoring                     | `Device`, `DeviceMetrics`, `DeviceStatus` |
+| Support Service   | **Low**          | Ticket management                                   | `Ticket`, `KnowledgeArticle`              |
 
 ## Detailed Service Integration
 

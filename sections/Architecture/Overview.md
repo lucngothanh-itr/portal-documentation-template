@@ -61,14 +61,14 @@ graph TD
 
 ### Key Service Integrations
 
-| Service | Purpose | Features Used |
-|---------|---------|--------------|
-| Auth Service | User authentication and authorization | Login, Registration, JWT handling |
-| Admin Service | Administrative operations | User management, System settings |
-| Billing Service | Billing and payments | Payment processing, Invoicing |
-| Clinic Service | Clinic management | Appointment scheduling, Patient records |
-| Device Management | Device operations | Device monitoring, Provisioning |
-| Support Service | User support | Ticket management, Knowledge base |
+| Service           | Purpose                               | Features Used                           |
+| ----------------- | ------------------------------------- | --------------------------------------- |
+| Auth Service      | User authentication and authorization | Login, Registration, JWT handling       |
+| Admin Service     | Administrative operations             | User management, System settings        |
+| Billing Service   | Billing and payments                  | Payment processing, Invoicing           |
+| Clinic Service    | Clinic management                     | Appointment scheduling, Patient records |
+| Device Management | Device operations                     | Device monitoring, Provisioning         |
+| Support Service   | User support                          | Ticket management, Knowledge base       |
 
 ## Authentication Flow
 
