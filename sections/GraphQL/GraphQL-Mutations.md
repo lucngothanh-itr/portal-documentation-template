@@ -16,6 +16,7 @@ mutation UpdateEntity($id: ID!, $input: EntityUpdateInput!) {
 ```
 
 ### Usage
+
 - **Purpose**: [What this mutation is used for]
 - **Components**: [List of components using this mutation]
 - **Variables**:
@@ -24,6 +25,7 @@ mutation UpdateEntity($id: ID!, $input: EntityUpdateInput!) {
 - **Microservice**: [Which microservice handles this operation]
 
 ### Input Structure
+
 ```typescript
 interface EntityUpdateInput {
   name?: string;
@@ -36,6 +38,7 @@ interface EntityUpdateInput {
 ```
 
 ### Response Structure
+
 ```typescript
 interface UpdateEntityResponse {
   updateEntity: {
@@ -48,6 +51,7 @@ interface UpdateEntityResponse {
 ```
 
 ### Error Handling
+
 - **Validation Errors**: [How validation errors are handled]
 - **Authorization Errors**: [How authorization errors are handled]
 - **Optimistic Updates**: [Whether optimistic updates are used]
@@ -68,6 +72,7 @@ mutation CreateEntity($input: EntityCreateInput!) {
 ```
 
 ### Usage
+
 - **Purpose**: [What this mutation is used for]
 - **Components**: [List of components using this mutation]
 - **Variables**:
@@ -75,6 +80,7 @@ mutation CreateEntity($input: EntityCreateInput!) {
 - **Microservice**: [Which microservice handles this operation]
 
 ### Input Structure
+
 ```typescript
 interface EntityCreateInput {
   name: string;
@@ -88,6 +94,7 @@ interface EntityCreateInput {
 ```
 
 ### Response Structure
+
 ```typescript
 interface CreateEntityResponse {
   createEntity: {
@@ -100,6 +107,7 @@ interface CreateEntityResponse {
 ```
 
 ### Error Handling
+
 - **Validation Errors**: [How validation errors are handled]
 - **Authorization Errors**: [How authorization errors are handled]
 - **Optimistic Updates**: [Whether optimistic updates are used]

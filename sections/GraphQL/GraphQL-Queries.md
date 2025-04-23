@@ -22,6 +22,7 @@ query ExampleQuery($param1: String!, $param2: Int) {
 ```
 
 ### Usage
+
 - **Purpose**: [What this query is used for]
 - **Components**: [List of components using this query]
 - **Variables**:
@@ -30,6 +31,7 @@ query ExampleQuery($param1: String!, $param2: Int) {
 - **Microservice**: [Which microservice handles this data]
 
 ### Response Structure
+
 ```typescript
 interface QueryResponse {
   entity: {
@@ -48,6 +50,7 @@ interface QueryResponse {
 ```
 
 ### Performance Considerations
+
 - **Caching Strategy**: [Cache-control details]
 - **Fetch Policy**: [Apollo fetch policy used]
 - **Typical Response Size**: [Approximate size]
@@ -70,6 +73,7 @@ query AnotherExampleQuery($filter: FilterInput!) {
 ```
 
 ### Usage
+
 - **Purpose**: [What this query is used for]
 - **Components**: [List of components using this query]
 - **Variables**:
@@ -77,6 +81,7 @@ query AnotherExampleQuery($filter: FilterInput!) {
 - **Microservice**: [Which microservice handles this data]
 
 ### Response Structure
+
 ```typescript
 interface SearchResponse {
   searchEntities: {
@@ -91,6 +96,7 @@ interface SearchResponse {
 ```
 
 ### Performance Considerations
+
 - **Caching Strategy**: [Cache-control details]
 - **Fetch Policy**: [Apollo fetch policy used]
 - **Typical Response Size**: [Approximate size]

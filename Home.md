@@ -1,8 +1,8 @@
-# 👋 Welcome to the [PORTAL_NAME] Portal Documentation
+# 👋 Welcome to the [PORTAL_NAME] Documentation
 
-Last Updated: April 22, 2025
+Last Updated: April 23, 2025
 
-## Overview
+## 🌟 Overview
 
 This documentation details the [PORTAL_NAME] portal within the BTCY BioFlux ecosystem, focusing on its technical implementation, integrations, and usage patterns.
 
@@ -20,7 +20,7 @@ This documentation details the [PORTAL_NAME] portal within the BTCY BioFlux ecos
 
 ## 📊 Architecture Overview
 
-The [PORTAL_NAME] Portal interacts with these microservices through Apollo Federation Gateway:
+The [PORTAL_NAME] Portal is built on a modern frontend framework that interacts with BTCY BioFlux microservices through Apollo Federation Gateway:
 
 ```mermaid
 graph TD
@@ -35,56 +35,54 @@ graph TD
     style GW fill:#bbf,stroke:#333,stroke-width:2px
 ```
 
+**Key Architecture Documentation:**
+
+- [System Architecture Overview](System-Architecture)
+- [Frontend Architecture](Frontend-Architecture)
+- [Backend Architecture](Backend-Architecture)
+
 ---
 
-## 🔑 Primary Flows
+## Business Logic - 🔑 Primary Flows
 
-- [Flow 1 - Description]
-- [Flow 2 - Description]
-- [Flow 3 - Description]
+For a comprehensive view of the key user journeys and application flows, please visit our [Primary Flows](Business-Logic-Primary-Flows) documentation.
 
 ---
 
 ## 🖥️ Frontend Implementation
 
-### Core Components
-- [Component 1] - Purpose and usage
-- [Component 2] - Purpose and usage
+The [PORTAL_NAME] frontend is built on [FRAMEWORK] with a component-based architecture.
 
-### Global State Management
-- State stores and their purpose
-- Redux/Context structure
+### Key Frontend Resources
 
-### Routes
-- Main application routes and access control
-
-### GraphQL Integration
-- Key queries and mutations
-- Apollo Client implementation
+- [Routing](Frontend-Routing)
 
 ---
 
 ## ⚙️ Backend Integration
 
-### Microservices Used
-- Auth Service - Authentication endpoints used
-- Billing Service - Payment processing endpoints used
-- [Other Services] - Specific endpoints used
+The [PORTAL_NAME] integrates with multiple backend microservices via GraphQL.
 
-### Data Models
-- Key data structures and relationships
-- Database schemas referenced
+### Key Backend Resources
 
-### Third-Party Integrations
-- [Integration 1] - Purpose and implementation details
-- [Integration 2] - Purpose and implementation details
+- [Backend Integrations](Backend-Integrations)
 
 ---
 
-## 🔄 Related Portals
+## GraphQL
 
-- [Related Portal 1] - Integration points
-- [Related Portal 2] - Integration points
+The [PORTAL_NAME] uses GraphQL for data fetching and mutations.
+
+### Key GraphQL Resources
+
+- [🔗 GraphQL Queries](GraphQL-Queries)
+- [🔗 GraphQL Mutations](GraphQL-Mutations)
+
+---
+
+## 🤝 Related Services
+
+- [Related Portals](Related-Portals)
 
 ---
 

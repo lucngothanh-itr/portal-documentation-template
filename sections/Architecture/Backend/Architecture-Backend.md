@@ -24,14 +24,10 @@ The backend is built on a microservices architecture with the following key serv
 
 ```mermaid
 graph TD
-    A[GraphQL Gateway] --> B[Auth Service]
-    A --> C[Billing Service]
-    A --> D[Clinic Service]
-    A --> E[Admin Service]
-    B --> F[(Auth DB)]
-    C --> G[(Billing DB)]
-    D --> H[(Clinic DB)]
-    E --> I[(Admin DB)]
+    A[Portal] --> B[B Service]
+    A --> C[C Service]
+    A --> D[D Service]
+    A --> E[E Service]
 ```
 
 ## Design Principles
@@ -42,7 +38,5 @@ graph TD
 
 ## Related Pages
 
-- [Service Structure](Service-Structure)
-- [Data Models](../Data-Models)
-- [API Documentation](../../Integration/API-Documentation)
-
+- [Frontend Architecture](Architecture-Frontend)
+- [System Architecture](System-Architecture)
